@@ -4,7 +4,7 @@ pipeline {
     }
     environment {
         ORG         = 'jenkinsxio'
-        APP_NAME    = 'builder-maven'
+        APP_NAME    = 'builder-maven-jdk10'
     }
     stages {
         stage('CI Build and push snapshot') {
